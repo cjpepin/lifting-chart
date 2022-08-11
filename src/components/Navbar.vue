@@ -1,7 +1,7 @@
 <template>
     <div class="nav">
         <span>Lift Estimator Chart</span>
-        <button>About</button>
+        <button @click="toMyPage()">About</button>
     </div>
 </template>
 
@@ -10,6 +10,11 @@
 export default {
     setup() {
         
+    },
+    methods:{
+        toMyPage(){
+            window.location.href = "https://www.connorjpepin.com/"
+        }
     },
 }
 </script>
