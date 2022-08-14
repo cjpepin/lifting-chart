@@ -155,6 +155,9 @@ export default {
 
 
 <style scoped>
+.component-wrapper{
+
+}
 
 input{
     max-width: 3rem;
